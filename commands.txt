@@ -1,0 +1,21 @@
+pip install kaggle
+
+kaggle --version
+
+kaggle datasets list
+
+kaggle datasets download -d iamsouravbanerjee/planet-dataset -p data/ --unzip
+
+kaggle datasets download -d abhikalpsrivastava15/space-images-category -p "data"
+
+pip install scikit-learn
+
+dir data
+
+Remove-Item -Recurse -Force 'data\train'
+Remove-Item -Recurse -Force 'data\test'
+Remove-Item -Recurse -Force 'data\space images'
+
+pip install tensorflow
+
+pip install Pillow
